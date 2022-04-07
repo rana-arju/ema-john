@@ -1,0 +1,44 @@
+.review-item{
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 21px;
+    width: 571px;
+    margin-left: 10%;
+    display: flex;
+}
+.review-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.details-container{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details{
+    margin-left: 5%;
+}
+.details p{
+    margin: 0;
+    padding: 0;
+}
+.details h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(255, 157, 157);
+}
+.btn p{
+    font-size: 20px;
+    color: rgb(248, 21, 21);
+    font-weight: 700;
+}

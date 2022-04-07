@@ -12,12 +12,11 @@ function App() {
     <Header />
     <Routes>
       <Route path='/' element={<Shop />} />
-      <Route path='home' element ={<Shop />} />
+      <Route path='shop' element ={<Shop />} />
       <Route path='inventory' element = {<Inventory />} />
       <Route path='about' element={<About />} />
       <Route path='order' element={<Orders />} />
     </Routes>
-    <Shop />
      
     </div>
   );
