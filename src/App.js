@@ -5,6 +5,8 @@ import Header from './Components/Header/Header';
 import Shop from './Components/Shop/Shop';
 import About from "./Components/About/About";
 import Inventory from "./Components/Inventory/Inventory"
+import Login from './Components/Login/Login';
+import SignUp from './Components/SignUp/SignUp';
 
 function App() {
   return (
@@ -12,10 +14,12 @@ function App() {
     <Header />
     <Routes>
       <Route path='/' element={<Shop />} />
-      <Route path='shop' element ={<Shop />} />
-      <Route path='inventory' element = {<Inventory />} />
-      <Route path='about' element={<About />} />
-      <Route path='order' element={<Orders />} />
+      <Route path='/shop' element ={<Shop />} />
+      <Route path='/inventory' element = {<Inventory />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/order' element={<Orders />} />
+      <Route path='/login' element= {<Login />} />
+      <Route path='/signup' element= {<SignUp />} />
     </Routes>
      
     </div>
