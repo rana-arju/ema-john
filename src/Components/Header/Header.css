@@ -16,3 +16,16 @@
 .header-nav a:hover{
     color: orange;
 }
+.enter-btn{
+    padding: 10px 16px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 17px;
+    cursor: pointer;
+}
+.enter-btn:hover{
+    color: #fff !important;
+}

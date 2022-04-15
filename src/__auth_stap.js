@@ -12,6 +12,8 @@
 9.  useCreateUserWithEmailAndPassword(auth) from react firebase hooks
 10. if user is create accout, after redirect to the ema john shop page
 11. useSignInWithEmailAndPassword(auth) for signin
+12. create redirectAuth.js file ==> check user exists also track user
+13. in route wrap protected component by using redirect auth component 
 */
 
 /*
