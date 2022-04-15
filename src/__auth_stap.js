@@ -6,6 +6,10 @@
 4. initialize firebase init and import "getAuth" to export "auth"
 5. go to "authentication" and started "get started"
 5. go to "authentication > signin method"
+6. create login, signup component, setup route
+7. attach form field handler and form submit handler
+8. install react firebase hooks
+9.  useCreateUserWithEmailAndPassword(auth) from react firebase hooks
 */
 
 /*
