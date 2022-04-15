@@ -10,6 +10,8 @@
 7. attach form field handler and form submit handler
 8. install react firebase hooks
 9.  useCreateUserWithEmailAndPassword(auth) from react firebase hooks
+10. if user is create accout, after redirect to the ema john shop page
+11. useSignInWithEmailAndPassword(auth) for signin
 */
 
 /*
